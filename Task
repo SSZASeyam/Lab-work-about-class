@@ -1,0 +1,25 @@
+Lab 7.2: Class & Objects:
+Write a class called as CustomerDirectory. The class will have the following private member
+data/attributes.
+Member Data/ Class Attributes
+Private char cusFirstName[30]
+char cusLastName[20]
+char cusDoB[10]
+char cusTelNum[13]
+char cusCountry[20]
+The class will have following member functions/methods.
+Member Function/Methods
+Public Void setCusInfo()
+{
+In this method, you will
+set the customer’s first
+ //write the and last name, with
+ method Date of Birth,
+ } telephone number and
+ customer’s country.
+ Void getCusInfo() In this method you will
+ { show the customer’s
+ //write the details on the console.
+ method
+ }
+Create two objects cus101 and cus102 in the main(). Access both methods with two objects and show the output
