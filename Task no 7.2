@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+using namespace std;
+class CustomerDirectory
+{
+private:
+    string cusFirstName;
+    string cusLastName;
+    string cusDOB;
+    string cusTelNum;
+    string cusCountry;
+public:
+    void setCusInfo(string Fname, string Lname, string dob, string num, string country)
+    {
+        cusFirstName=Fname;
+        cusLastName=Lname;
+        cusDOB=dob;
+        cusTelNum=num;
+        cusCountry=country;
+    }
+    void getCusInfo()
+    {
+        cout<<"Customer's First name : "<<cusFirstName<<endl;
+        cout<<"Customer's Last name : "<<cusLastName<<endl;
+        cout<<"Customer's Date of Birth : "<<cusDOB<<endl;
+        cout<<"Customer's Telephone number : "<<cusTelNum<<endl;
+        cout<<"Customer's Nationality : "<<cusCountry<<endl;
+    }
+};
+int main()
+{
+    CustomerDirectory cus101;
+    cus101.setCusInfo("Zobaer","Ahmed","25/10/2003","01405098447","Bangladesh");
+    cus101.getCusInfo();
+    cout<<"______________________________"<<endl;
+    cout<<endl;
+    CustomerDirectory cus102;
+    cus101.setCusInfo("Muntasir Rahman","Khan Esan","02/05/2002","014060784060","Bangladesh");
+    cus101.getCusInfo();
+
+    return 0;
+}
